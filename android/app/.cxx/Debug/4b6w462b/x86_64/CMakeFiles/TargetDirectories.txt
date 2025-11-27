@@ -1,0 +1,6 @@
+/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/CMakeFiles/appmodules.dir
+/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/CMakeFiles/edit_cache.dir
+/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
