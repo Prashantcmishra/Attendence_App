@@ -12,6 +12,56 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/rnasyncstorage-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/ComponentDescriptors.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/EventEmitters.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/Props.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/ShadowNodes.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/States.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/rngesturehandler_codegen-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/ComponentDescriptors.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/EventEmitters.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/Props.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/ShadowNodes.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/States.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/rngesturehandler_codegenJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
 # LIB_CUSTOM_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt:12 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-safe-area-context/android/src/main/jni/*.cpp")
 set(OLD_GLOB
@@ -51,6 +101,126 @@ set(OLD_GLOB
   "/Users/chay/Desktop/Attendence_App/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp"
   "/Users/chay/Desktop/Attendence_App/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/States.cpp"
   "/Users/chay/Desktop/Attendence_App/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/safeareacontextJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/rnscreens.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSBottomTabsShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSBottomTabsState.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSFullWindowOverlayShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSModalScreenShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSSafeAreaViewShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSSafeAreaViewState.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderConfigShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderConfigState.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderSubviewShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderSubviewState.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenState.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSSplitViewScreenShadowNode.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/utils/*.cpp")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CODEGEN_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:24 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ComponentDescriptors.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/States.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/rnscreensJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# rnsvg_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:10 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/rnsvg.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# rnsvg_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:10 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/RNSVGImageShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/RNSVGImageState.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/RNSVGLayoutableShadowNode.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/RNSVGLayoutableState.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/RNSVGShadowNodes.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# rnsvg_codegen_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:11 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/*cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/ComponentDescriptors.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/Props.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/ShadowNodes.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/States.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/rnsvgJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/RNVectorIconsSpec-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/*.cpp")
+set(OLD_GLOB
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/Props.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/ShadowNodes.cpp"
+  "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/States.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
