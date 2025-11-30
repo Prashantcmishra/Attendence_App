@@ -45,11 +45,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/rnasyncstorage_autolinked_build/cmake_install.cmake")
+  include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/RNDateTimePickerCGen_autolinked_build/cmake_install.cmake")
   include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/rngesturehandler_codegen_autolinked_build/cmake_install.cmake")
   include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/safeareacontext_autolinked_build/cmake_install.cmake")
   include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/rnscreens_autolinked_build/cmake_install.cmake")
   include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/rnsvg_autolinked_build/cmake_install.cmake")
   include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/RNVectorIconsSpec_autolinked_build/cmake_install.cmake")
+  include("/Users/chay/Desktop/Attendence_App/android/app/.cxx/Debug/4b6w462b/x86_64/RNCWebViewSpec_autolinked_build/cmake_install.cmake")
 
 endif()
 

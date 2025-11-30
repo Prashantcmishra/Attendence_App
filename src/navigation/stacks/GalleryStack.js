@@ -10,10 +10,6 @@ export default function GalleryStack() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="HomeMain" component={GalleryScreen} />
-      {/* <Stack.Screen name="SalesComparison" component={SalesComparison} />
-      <Stack.Screen name="Profile" component={ProfileScreen} />
-      <Stack.Screen name="Notifications" component={NotificationScreen} /> */}
-      {/* Add all future Home screens here */}
     </Stack.Navigator>
   );
 }

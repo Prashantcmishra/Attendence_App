@@ -44,7 +44,7 @@ const LoginScreen = ({ navigation }) => {
           {/* Header Image */}
           <View style={styles.imageContainer}>
             <Image
-              source={require("../../assets/LoginPageImage.png")} // Replace with your image path
+              source={require("../../assets/Images/LoginPageImage.png")} // Replace with your image path
               style={styles.headerImage}
               resizeMode="stretch"
             />

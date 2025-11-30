@@ -57,8 +57,9 @@ export default function MainNavigator() {
             }
           };
 
-          // Get icon with focused state
-          const iconColor = isFocused ? palette.primary : palette.gray;
+          // ⭐ FIXED: Use palette.black for inactive, palette.primary for active
+          const iconColor = isFocused ? palette.primary : palette.black;
+
           const icon = options.tabBarIcon
             ? options.tabBarIcon({ color: iconColor, focused: isFocused })
             : null;
@@ -74,7 +75,14 @@ export default function MainNavigator() {
                 >
                   <VideoSvg color="#FFFFFF" focused={true} size={28} />
                 </TouchableOpacity>
-                <Text style={styles.centerLabel}>{label}</Text>
+                <Text
+                  style={[
+                    styles.centerLabel,
+                    isFocused && styles.focusedCenterLabel, // ⭐ Add focused state for center label
+                  ]}
+                >
+                  {label}
+                </Text>
               </View>
             );
           }
@@ -169,8 +177,6 @@ const styles = StyleSheet.create({
     right: 0,
     height: 70,
     backgroundColor: palette.white,
-    // borderTopLeftRadius: 24,
-    // borderTopRightRadius: 24,
     borderWidth: 1,
     paddingHorizontal: 8,
     paddingTop: 8,
@@ -213,17 +219,21 @@ const styles = StyleSheet.create({
   centerLabel: {
     fontSize: 11,
     fontWeight: "500",
-    color: palette.black,
+    color: palette.black, // ⭐ Default black
     marginTop: 10,
+  },
+  focusedCenterLabel: {
+    color: palette.primary, // ⭐ Blue when focused
+    fontWeight: "600",
   },
   label: {
     fontSize: 11,
     fontWeight: "500",
-    color: palette.black,
+    color: palette.black, // ⭐ Black when inactive
     marginTop: 4,
   },
   focusedLabel: {
-    color: palette.primary,
+    color: palette.primary, // ⭐ Blue when active
     fontWeight: "600",
   },
 });

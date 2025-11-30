@@ -1,11 +1,13 @@
 {
   "buildFiles": [
     "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/chay/Desktop/Attendence_App/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/chay/Desktop/Attendence_App/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/chay/Desktop/Attendence_App/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
     "/Users/chay/Desktop/Attendence_App/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
     "/Users/chay/Desktop/Attendence_App/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
     "/Users/chay/Desktop/Attendence_App/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/chay/Desktop/Attendence_App/node_modules/react-native-webview/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/chay/Desktop/Attendence_App/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
@@ -43,6 +45,11 @@
       "abi": "armeabi-v7a",
       "runtimeFiles": []
     },
+    "react_codegen_RNCWebViewSpec::@eb48929f9f7453740a6c": {
+      "artifactName": "react_codegen_RNCWebViewSpec",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
+    },
     "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
       "artifactName": "react_codegen_rnscreens",
       "abi": "armeabi-v7a",
@@ -52,6 +59,11 @@
         "/Users/chay/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
         "/Users/chay/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
       ]
+    },
+    "react_codegen_RNDateTimePickerCGen::@59b70ddc31ba2f8ef1d2": {
+      "artifactName": "react_codegen_RNDateTimePickerCGen",
+      "abi": "armeabi-v7a",
+      "runtimeFiles": []
     },
     "appmodules::@6890427a1f51a3e7e1df": {
       "artifactName": "appmodules",
